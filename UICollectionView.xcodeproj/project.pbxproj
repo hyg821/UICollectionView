@@ -15,6 +15,15 @@
 		B5E614791CDC32800055F78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E614771CDC32800055F78A /* LaunchScreen.storyboard */; };
 		B5E614841CDC32800055F78A /* UICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614831CDC32800055F78A /* UICollectionViewTests.m */; };
 		B5E6148F1CDC32800055F78A /* UICollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E6148E1CDC32800055F78A /* UICollectionViewUITests.m */; };
+		B5E6149E1CDC38610055F78A /* ExampleOne.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E6149D1CDC38610055F78A /* ExampleOne.m */; };
+		B5E614A21CDC3C4C0055F78A /* ExampleOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614A11CDC3C4C0055F78A /* ExampleOneCell.m */; };
+		B5E614A51CDC67000055F78A /* ExampleTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614A41CDC67000055F78A /* ExampleTwo.m */; };
+		B5E614A81CDC6A490055F78A /* ExampleTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614A71CDC6A490055F78A /* ExampleTwoCell.m */; };
+		B5E614AB1CDC6C130055F78A /* ExampleThree.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614AA1CDC6C130055F78A /* ExampleThree.m */; };
+		B5E614AE1CDC6CF40055F78A /* ExampleThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614AD1CDC6CF40055F78A /* ExampleThreeCell.m */; };
+		B5E614B11CDC75D20055F78A /* ExampleFour.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614B01CDC75D20055F78A /* ExampleFour.m */; };
+		B5E614B41CDC78D90055F78A /* ExampleFourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614B31CDC78D90055F78A /* ExampleFourCell.m */; };
+		B5E614B71CDC79540055F78A /* ExampleFourLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E614B61CDC79540055F78A /* ExampleFourLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,25 @@
 		B5E6148A1CDC32800055F78A /* UICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E6148E1CDC32800055F78A /* UICollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewUITests.m; sourceTree = "<group>"; };
 		B5E614901CDC32800055F78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E6149C1CDC38610055F78A /* ExampleOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleOne.h; sourceTree = "<group>"; };
+		B5E6149D1CDC38610055F78A /* ExampleOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleOne.m; sourceTree = "<group>"; };
+		B5E6149F1CDC39820055F78A /* defineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defineHeader.h; sourceTree = "<group>"; };
+		B5E614A01CDC3C4C0055F78A /* ExampleOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleOneCell.h; sourceTree = "<group>"; };
+		B5E614A11CDC3C4C0055F78A /* ExampleOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleOneCell.m; sourceTree = "<group>"; };
+		B5E614A31CDC67000055F78A /* ExampleTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTwo.h; sourceTree = "<group>"; };
+		B5E614A41CDC67000055F78A /* ExampleTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTwo.m; sourceTree = "<group>"; };
+		B5E614A61CDC6A490055F78A /* ExampleTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTwoCell.h; sourceTree = "<group>"; };
+		B5E614A71CDC6A490055F78A /* ExampleTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTwoCell.m; sourceTree = "<group>"; };
+		B5E614A91CDC6C130055F78A /* ExampleThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleThree.h; sourceTree = "<group>"; };
+		B5E614AA1CDC6C130055F78A /* ExampleThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleThree.m; sourceTree = "<group>"; };
+		B5E614AC1CDC6CF40055F78A /* ExampleThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleThreeCell.h; sourceTree = "<group>"; };
+		B5E614AD1CDC6CF40055F78A /* ExampleThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleThreeCell.m; sourceTree = "<group>"; };
+		B5E614AF1CDC75D20055F78A /* ExampleFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleFour.h; sourceTree = "<group>"; };
+		B5E614B01CDC75D20055F78A /* ExampleFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleFour.m; sourceTree = "<group>"; };
+		B5E614B21CDC78D90055F78A /* ExampleFourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleFourCell.h; sourceTree = "<group>"; };
+		B5E614B31CDC78D90055F78A /* ExampleFourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleFourCell.m; sourceTree = "<group>"; };
+		B5E614B51CDC79540055F78A /* ExampleFourLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleFourLayout.h; sourceTree = "<group>"; };
+		B5E614B61CDC79540055F78A /* ExampleFourLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleFourLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +131,27 @@
 			children = (
 				B5E6146C1CDC32800055F78A /* AppDelegate.h */,
 				B5E6146D1CDC32800055F78A /* AppDelegate.m */,
+				B5E6149F1CDC39820055F78A /* defineHeader.h */,
 				B5E6146F1CDC32800055F78A /* ViewController.h */,
 				B5E614701CDC32800055F78A /* ViewController.m */,
+				B5E6149C1CDC38610055F78A /* ExampleOne.h */,
+				B5E6149D1CDC38610055F78A /* ExampleOne.m */,
+				B5E614A01CDC3C4C0055F78A /* ExampleOneCell.h */,
+				B5E614A11CDC3C4C0055F78A /* ExampleOneCell.m */,
+				B5E614A31CDC67000055F78A /* ExampleTwo.h */,
+				B5E614A41CDC67000055F78A /* ExampleTwo.m */,
+				B5E614A61CDC6A490055F78A /* ExampleTwoCell.h */,
+				B5E614A71CDC6A490055F78A /* ExampleTwoCell.m */,
+				B5E614A91CDC6C130055F78A /* ExampleThree.h */,
+				B5E614AA1CDC6C130055F78A /* ExampleThree.m */,
+				B5E614AC1CDC6CF40055F78A /* ExampleThreeCell.h */,
+				B5E614AD1CDC6CF40055F78A /* ExampleThreeCell.m */,
+				B5E614AF1CDC75D20055F78A /* ExampleFour.h */,
+				B5E614B01CDC75D20055F78A /* ExampleFour.m */,
+				B5E614B21CDC78D90055F78A /* ExampleFourCell.h */,
+				B5E614B31CDC78D90055F78A /* ExampleFourCell.m */,
+				B5E614B51CDC79540055F78A /* ExampleFourLayout.h */,
+				B5E614B61CDC79540055F78A /* ExampleFourLayout.m */,
 				B5E614721CDC32800055F78A /* Main.storyboard */,
 				B5E614751CDC32800055F78A /* Assets.xcassets */,
 				B5E614771CDC32800055F78A /* LaunchScreen.storyboard */,
@@ -270,9 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E614B11CDC75D20055F78A /* ExampleFour.m in Sources */,
+				B5E614AE1CDC6CF40055F78A /* ExampleThreeCell.m in Sources */,
 				B5E614711CDC32800055F78A /* ViewController.m in Sources */,
+				B5E6149E1CDC38610055F78A /* ExampleOne.m in Sources */,
+				B5E614A21CDC3C4C0055F78A /* ExampleOneCell.m in Sources */,
+				B5E614A81CDC6A490055F78A /* ExampleTwoCell.m in Sources */,
 				B5E6146E1CDC32800055F78A /* AppDelegate.m in Sources */,
+				B5E614AB1CDC6C130055F78A /* ExampleThree.m in Sources */,
+				B5E614B71CDC79540055F78A /* ExampleFourLayout.m in Sources */,
 				B5E6146B1CDC32800055F78A /* main.m in Sources */,
+				B5E614B41CDC78D90055F78A /* ExampleFourCell.m in Sources */,
+				B5E614A51CDC67000055F78A /* ExampleTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
